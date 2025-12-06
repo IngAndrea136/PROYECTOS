@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://image.freepik.com/free-photo/aquamarine-mix-paints-paper_23-2148015683.jpg);   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.imatitulo {
+  display:grid;
+  grid-template-columns: 30% auto;
+  margin-bottom: 30px;  
+}
+
+.imatitulo img {
+  width: 100%;
+  margin-top: -30px;
+}
+
+
+.imatitulo h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form-register {
+  width: 350px;
+  background: #569ac2;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #002C56
+}
+
+.controls {
+  width: 100%;
+  background: #eff8ff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+  outline: none;
+}
+              
+  #boton-crear {
+  width: 100%;
+  background: #4400ff; 
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.contraolvidada {
+  font-family: 'calibri';
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  
+}

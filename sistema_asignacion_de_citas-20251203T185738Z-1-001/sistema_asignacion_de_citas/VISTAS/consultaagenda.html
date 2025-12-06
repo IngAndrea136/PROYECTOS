@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../VISTAS/CSS/foormulario.css">
+
+    <title>Consultar citas</title>
+
+</head>
+
+<body>
+    <div class="logo">
+        <img src="../VISTAS/IMAGENES/mulrident.png">
+    </div>
+    <section class="form-register">
+        <h2>
+            CONSULTAS
+        </h2>
+
+        <form action="../CONTROLADOR/conconsultagenda.php" method="POST">
+            <div class='entrada'>
+                <label for="pnumide">Numero de Agenda </label> <br>
+                <input class='controls' type='number' id="pnumide" name="t1" autofocus required>
+                <input type="submit" value="Consultar" id="boton-crear" style="width:100%;" />
+            </div>
+        </form>
+        <button type='button' style="  background: #359AFC; border-color: #359AFC;"><a href='../VISTAS/interfazdoctor.php'  > <img style='width:40px'; src='../VISTAS/IMAGENES/flechacorrecta.png'></a></button></body>
+
+</html>
